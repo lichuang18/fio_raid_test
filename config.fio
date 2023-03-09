@@ -1,0 +1,14 @@
+[global]
+name=fio-seq-reads
+filename=/dev/${device}
+rw=${rw}
+bs=${bs}
+direct=1
+time_based
+runtime=${runtime}
+ioengine=libaio
+iodepth=${iodepth}
+group_reporting
+numjobs=${numjobs}
+[file1]
+

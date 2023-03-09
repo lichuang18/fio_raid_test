@@ -1,0 +1,11 @@
+#测试单盘
+./rand_mul_t_run.sh -d sdd -t
+./seq_mul_t_run.sh -d sdd -t
+
+
+#测试raid多线程
+./rand_mul_t_run.sh -d md0 -t
+
+./seq_mul_t_run.sh -d md0 -t
+
+
